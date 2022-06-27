@@ -10,6 +10,7 @@ gem 'will_paginate',              '3.3.0'
 gem 'bootstrap-will_paginate',    '1.0.0'
 gem 'bootstrap-sass',             '3.4.1'
 gem 'puma',                       '5.2.2'
+gem 'psych',                      '< 4.0.0'
 gem 'sass-rails',                 '6.0.0'
 gem 'webpacker',                  '5.2.1'
 gem 'turbolinks',                 '5.2.1'
@@ -17,13 +18,13 @@ gem 'jbuilder',                   '2.10.0'
 gem 'bootsnap',                   '1.7.2', require: false
 gem 'factory_bot',                '6.1.0'
 gem 'factory_bot_rails',          '6.1.0'
-gem 'rake',                       '~> 13.0'
 group :development, :test do
   # gem 'debase'
   # gem 'ruby-debug-ide'
   gem 'rspec-rails',        '5.0.1'
   gem 'simplecov',          '0.21.2'
-  gem 'sqlite3',            '~>1.3.13'
+  # gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
+  gem 'sqlite3',            '1.4.2'
   gem 'byebug',             '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
 end
 group :development do
