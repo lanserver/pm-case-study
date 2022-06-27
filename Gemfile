@@ -17,7 +17,7 @@ gem 'sass-rails',                 '6.0.0'
 gem 'webpacker',                  '5.2.1'
 gem 'turbolinks',                 '5.2.1'
 gem 'jbuilder',                   '2.10.0'
-gem 'bootsnap',                   '1.7.2', require: false
+gem 'bootsnap',                   '1.12.0', require: false
 gem 'factory_bot',                '6.1.0'
 gem 'factory_bot_rails',          '6.1.0'
 group :development, :test do
